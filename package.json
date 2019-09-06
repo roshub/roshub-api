@@ -55,7 +55,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/roshub/api.git"
+    "url": "https://github.com/roshub/roshub-api.git"
   },
   "author": "RosHub Inc. <code@roshub.io>",
   "license": "Apache-2.0"
