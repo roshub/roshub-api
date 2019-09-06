@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>dataparty/factory/device.js - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="CloudParty.html">CloudParty</a><ul class='methods'><li data-type='method'><a href="CloudParty.html#call">call</a></li><li data-type='method'><a href="CloudParty.html#decrypt">decrypt</a></li><li data-type='method'><a href="CloudParty.html#encrypt">encrypt</a></li><li data-type='method'><a href="CloudParty.html#hasActor">hasActor</a></li><li data-type='method'><a href="CloudParty.html#hasIdentity">hasIdentity</a></li><li data-type='method'><a href="CloudParty.html#loadActor">loadActor</a></li><li data-type='method'><a href="CloudParty.html#loadIdentity">loadIdentity</a></li><li data-type='method'><a href="CloudParty.html#socket">socket</a></li><li data-type='method'><a href="CloudParty.html#start">start</a></li></ul></li><li><a href="DataModel.html">DataModel</a><ul class='methods'><li data-type='method'><a href="DataModel.html#addFactory">addFactory</a></li><li data-type='method'><a href="DataModel.html#getDocument">getDocument</a></li><li data-type='method'><a href="DataModel.html#getFactories">getFactories</a></li><li data-type='method'><a href="DataModel.html#getFactory">getFactory</a></li><li data-type='method'><a href="DataModel.html#getTypes">getTypes</a></li><li data-type='method'><a href="DataModel.html#hydrate">hydrate</a></li><li data-type='method'><a href="DataModel.html#validate">validate</a></li></ul></li><li><a href="LocalStorageConfig.html">LocalStorageConfig</a></li><li><a href="MemoryConfig.html">MemoryConfig</a></li><li><a href="module-roshub.Api.html">Api</a><ul class='methods'><li data-type='method'><a href="module-roshub.Api.html#getLegalAgreements">getLegalAgreements</a></li></ul></li><li><a href="module-roshub.DataParty.html">DataParty</a><ul class='methods'><li data-type='method'><a href="module-roshub.DataParty.html#call">call</a></li><li data-type='method'><a href="module-roshub.DataParty.html#create">create</a></li><li data-type='method'><a href="module-roshub.DataParty.html#createDocument">createDocument</a></li><li data-type='method'><a href="module-roshub.DataParty.html#find">find</a></li><li data-type='method'><a href="module-roshub.DataParty.html#remove">remove</a></li><li data-type='method'><a href="module-roshub.DataParty.html#socket">socket</a></li><li data-type='method'><a href="module-roshub.DataParty.html#start">start</a></li><li data-type='method'><a href="module-roshub.DataParty.html#types">types</a></li><li data-type='method'><a href="module-roshub.DataParty.html#update">update</a></li></ul></li><li><a href="module-roshub.DataParty.Document.html">Document</a><ul class='methods'><li data-type='method'><a href="module-roshub.DataParty.Document.html#acl">acl</a></li><li data-type='method'><a href="module-roshub.DataParty.Document.html#getData">getData</a></li><li data-type='method'><a href="module-roshub.DataParty.Document.html#grantAccess">grantAccess</a></li><li data-type='method'><a href="module-roshub.DataParty.Document.html#mergeData">mergeData</a></li><li data-type='method'><a href="module-roshub.DataParty.Document.html#pull">pull</a></li><li data-type='method'><a href="module-roshub.DataParty.Document.html#save">save</a></li><li data-type='method'><a href="module-roshub.DataParty.Document.html#setData">setData</a></li><li data-type='method'><a href="module-roshub.DataParty.Document.html#unwatch">unwatch</a></li><li data-type='method'><a href="module-roshub.DataParty.Document.html#watch">watch</a></li><li data-type='method'><a href="module-roshub.DataParty.Document.html#watchField">watchField</a></li></ul></li><li><a href="module-roshub_Types.Acl.html">Acl</a><ul class='methods'><li data-type='method'><a href="module-roshub_Types.Acl.html#getPermissionsByField">getPermissionsByField</a></li><li data-type='method'><a href="module-roshub_Types.Acl.html#resource">resource</a></li><li data-type='method'><a href="module-roshub_Types.Acl.html#setPermissionsByField">setPermissionsByField</a></li></ul></li><li><a href="module-roshub_Types.BillingAccount.html">BillingAccount</a><ul class='methods'><li data-type='method'><a href="module-roshub_Types.BillingAccount.html#hasAgreed">hasAgreed</a></li><li data-type='method'><a href="module-roshub_Types.BillingAccount.html#hasAgreedToMarketing">hasAgreedToMarketing</a></li><li data-type='method'><a href="module-roshub_Types.BillingAccount.html#hasAgreedToPrivacy">hasAgreedToPrivacy</a></li><li data-type='method'><a href="module-roshub_Types.BillingAccount.html#hasAgreedToTos">hasAgreedToTos</a></li><li data-type='method'><a href="module-roshub_Types.BillingAccount.html#hasPlan">hasPlan</a></li></ul></li><li><a href="module-roshub_Types.Code.html">Code</a><ul class='methods'><li data-type='method'><a href="module-roshub_Types.Code.html#.create">create</a></li><li data-type='method'><a href="module-roshub_Types.Code.html#addToDevice">addToDevice</a></li></ul></li><li><a href="module-roshub_Types.CodeStatus.html">CodeStatus</a></li><li><a href="module-roshub_Types.ConsoleLog.html">ConsoleLog</a><ul class='methods'><li data-type='method'><a href="module-roshub_Types.ConsoleLog.html#.create">create</a></li></ul></li><li><a href="module-roshub_Types.Device.html">Device</a><ul class='methods'><li data-type='method'><a href="module-roshub_Types.Device.html#.create">create</a></li><li data-type='method'><a href="module-roshub_Types.Device.html#addIdentity">addIdentity</a></li><li data-type='method'><a href="module-roshub_Types.Device.html#attachBlePeer">attachBlePeer</a></li><li data-type='method'><a href="module-roshub_Types.Device.html#bleRun">bleRun</a></li><li data-type='method'><a href="module-roshub_Types.Device.html#config">config</a></li><li data-type='method'><a href="module-roshub_Types.Device.html#enroll">enroll</a></li><li data-type='method'><a href="module-roshub_Types.Device.html#getCodeDocumentList">getCodeDocumentList</a></li><li data-type='method'><a href="module-roshub_Types.Device.html#hasIdentity">hasIdentity</a></li><li data-type='method'><a href="module-roshub_Types.Device.html#identities">identities</a></li><li data-type='method'><a href="module-roshub_Types.Device.html#info">info</a></li><li data-type='method'><a href="module-roshub_Types.Device.html#removeCode">removeCode</a></li><li data-type='method'><a href="module-roshub_Types.Device.html#status">status</a></li><li data-type='method'><a href="module-roshub_Types.Device.html#topic">topic</a></li><li data-type='method'><a href="module-roshub_Types.Device.html#topics">topics</a></li><li data-type='method'><a href="module-roshub_Types.Device.html#unenroll">unenroll</a></li><li data-type='method'><a href="module-roshub_Types.Device.html#wifiConnect">wifiConnect</a></li><li data-type='method'><a href="module-roshub_Types.Device.html#wifiScan">wifiScan</a></li><li data-type='method'><a href="module-roshub_Types.Device.html#wifiState">wifiState</a></li></ul></li><li><a href="module-roshub_Types.DeviceConfig.html">DeviceConfig</a><ul class='methods'><li data-type='method'><a href="module-roshub_Types.DeviceConfig.html#addCode">addCode</a></li><li data-type='method'><a href="module-roshub_Types.DeviceConfig.html#getCodeList">getCodeList</a></li><li data-type='method'><a href="module-roshub_Types.DeviceConfig.html#module">module</a></li><li data-type='method'><a href="module-roshub_Types.DeviceConfig.html#updateModule">updateModule</a></li></ul></li><li><a href="module-roshub_Types.DeviceInfo.html">DeviceInfo</a></li><li><a href="module-roshub_Types.DeviceStatus.html">DeviceStatus</a><ul class='methods'><li data-type='method'><a href="module-roshub_Types.DeviceStatus.html#getProgress">getProgress</a></li><li data-type='method'><a href="module-roshub_Types.DeviceStatus.html#module">module</a></li></ul></li><li><a href="module-roshub_Types.Identity.html">Identity</a></li><li><a href="module-roshub_Types.Org.html">Org</a><ul class='methods'><li data-type='method'><a href="module-roshub_Types.Org.html#billing">billing</a></li><li data-type='method'><a href="module-roshub_Types.Org.html#teams">teams</a></li></ul></li><li><a href="module-roshub_Types.Topic.html">Topic</a><ul class='methods'><li data-type='method'><a href="module-roshub_Types.Topic.html#.create">create</a></li><li data-type='method'><a href="module-roshub_Types.Topic.html#instance">instance</a></li></ul></li><li><a href="module-roshub_Types.User.html">User</a><ul class='methods'><li data-type='method'><a href="module-roshub_Types.User.html#billing">billing</a></li><li data-type='method'><a href="module-roshub_Types.User.html#codes">codes</a></li><li data-type='method'><a href="module-roshub_Types.User.html#devices">devices</a></li><li data-type='method'><a href="module-roshub_Types.User.html#identities">identities</a></li><li data-type='method'><a href="module-roshub_Types.User.html#orgs">orgs</a></li><li data-type='method'><a href="module-roshub_Types.User.html#teams">teams</a></li></ul></li><li><a href="NconfConfig.html">NconfConfig</a></li></ul><h3>Modules</h3><ul><li><a href="module-roshub.html">roshub</a></li><li><a href="module-roshub_Types.html">roshub/Types</a></li></ul><h3>Events</h3><ul><li><a href="module-roshub.DataParty.Document.html#event:change">change</a></li><li><a href="module-roshub.DataParty.Document.html#event:create">create</a></li><li><a href="module-roshub.DataParty.Document.html#event:field">field</a></li><li><a href="module-roshub.DataParty.Document.html#event:value">value</a></li></ul><h3>Interfaces</h3><ul><li><a href="module-roshub.Config.html">Config</a></li></ul><h3>Global</h3><ul><li><a href="global.html#model">model</a></li></ul>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">dataparty/factory/device.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>const debug = require("debug")("roshub.factory.device");
+const reach = require("../../reach");
+const Document = require("../document");
+const Identity = require("./identity");
+
+/**
+ * @class 
+ * @alias module:roshub/Types.Device
+ * @implements {module:roshub.DataParty.Document}
+ */
+class Device extends Document {
+  constructor({ party, type, id, data }) {
+    super({ party, type, id, data });
+    debug("instantiated - ", this.id);
+
+    this.bleDevice = undefined
+    this.statusDoc = undefined
+  }
+
+  /**
+   * @method
+   */
+  async identities() {
+    return this.party
+      .find()
+      .type("identity")
+      .where("owner.id")
+      .equals(this.id)
+      .where("owner.type")
+      .equals(this.type)
+      .exec();
+  }
+
+  /**
+   * @method
+   */
+  async hasIdentity(key) {
+    return this.party
+      .find()
+      .type("identity")
+      .where("owner.id")
+      .equals(this.id)
+      .where("owner.type")
+      .equals(this.type)
+      .where("key.public.box")
+      .equals(key.public.box)
+      .where("key.public.sign")
+      .equals(key.public.sign)
+      .where("key.type")
+      .equals(key.type)
+      .exec();
+  }
+
+  /**
+   * @method
+   */
+  async addIdentity(identityKey) {
+    let foundIdentity = await this.hasIdentity(identityKey);
+    debug("has identity = ", foundIdentity, identityKey);
+
+    if (foundIdentity &amp;&amp; foundIdentity.length == 1) {
+      debug("found identity", foundIdentity);
+      return foundIdentity[0];
+    }
+
+    let identity = await Identity.create(this.party, this, identityKey);
+    debug("created identity", identity);
+    return identity;
+  }
+
+  /**
+   * @method
+   */
+  async unenroll() {
+    return this.bleRun({ op: "unenroll" });
+  }
+
+  /**
+   * @method
+   */
+  async attachBlePeer(bleDevice){
+    this.bleDevice = bleDevice
+    return this.bleDevice.start()
+  }
+
+  /**
+   * @method
+   */
+  async enroll() {
+    const identityBle = await this.bleRun({ op: "identity" });
+
+    await this.addIdentity(identityBle.key);
+    
+    const enrollResult = await this.bleRun({
+      op: "enroll",
+      actor: {
+        id: this.id,
+        type: this.type
+      },
+      owner: {
+        id: this.owner.id,
+        type: this.owner.type
+      },
+      cloud: {
+        uri: this.party.config.read('cloud.uri'),
+        wsUri: this.party.config.read('cloud.wsUri')
+      }
+    })
+
+    return enrollResult;
+  }
+
+  /**
+   * @method
+   */
+  async bleRun(argv) {
+    if (!this.bleDevice) throw new Error('No blePeer Attached!')
+
+    const result = await this.bleDevice.run(argv)
+    debug(result)
+    return result[result.op] ? {
+      op: result.op,
+      ...result[result.op]
+    }
+      : result
+  }
+
+  /**
+   * @method
+   */
+  async wifiConnect(ssid, password) {
+    const wifiConnect = await this.bleRun({
+      op: "wifi-connect",
+      ap: {
+        ssid,
+        password
+      }
+    });
+
+    const wifiState = await this.wifiState()
+    return { 
+      wifiConnect, 
+      wifiState
+    };
+  }
+
+  /**
+   * @method
+   */
+  async wifiState() {
+    return this.bleRun({ op: "wifi-state" })
+  }
+
+  /**
+   * @method
+   */
+  async wifiScan() {
+    const wifiScan = await this.bleRun({ op: "wifi-scan" })
+    const wifiState = await this.wifiState()
+    
+    return { 
+      wifiScan, 
+      wifiState
+    };
+  }
+
+  /**
+   * @method
+   * @returns {DeviceConfig}
+   */
+  async config() {
+    return (await this.party
+      .find()
+      .type("device_config")
+      .id(this.data.config.id)
+      .exec()
+    )[0];
+  }
+
+  /**
+   * @method
+   * @returns {DeviceStatus}
+   */
+  async status() {
+    return (this.statusDoc = (await this.party
+      .find()
+      .type("device_status")
+      .owner(this.type, this.id)
+      .exec()
+    )[0])
+  }
+
+  /**
+   * @method
+   * @returns {DeviceInfo}
+   */
+  async info() {
+    return (await this.party
+      .find()
+      .type("device_info")
+      .owner(this.type, this.id)
+      .exec()
+    )[0];
+  }
+
+
+  /**
+   * @method
+   * @todo Move to {DeviceConfig}
+   */
+  async getCodeDocumentList() {
+    const config = await this.config()
+
+    const codeList = await config.getCodeList()
+
+    try {
+      return (await Promise.all(
+        codeList.map(({ id, type }) =>
+          this.party
+            .find()
+            .type(type)
+            .id(id)
+            .exec()
+        )
+      )).map(d => d[0])
+    } catch (e) {
+      debug(e)
+    }
+
+    return []
+  }
+
+  /**
+   * @method
+   * @todo Move to {DeviceConfig}
+   */
+  async removeCode(index) {
+    const config = await this.config()
+    const codeActorList = await config.getCodeList()
+
+    codeActorList.splice(index, 1)
+
+    return config.save()
+  }
+
+  /**
+   * @method
+   * @todo implement a topic factory that create a socket connect
+   */
+  async topics() {
+    return this.party
+      .find()
+      .type("topic")
+      .owner(this.type, this.id)
+      .exec();
+  }
+
+  /**
+   * @method
+   */
+  async topic(topicName) {
+    const existingTopicList = await this.party
+      .find()
+      .type("topic")
+      .owner(this.type, this.id)
+      .where("topicName")
+      .equals(topicName)
+      .exec();
+
+    if (!existingTopicList || existingTopicList.length === 0) {
+      throw new Error("topic not found");
+    }
+
+    debug('found topic', existingTopicList[0]);
+
+    return existingTopicList[0];
+  }
+
+  /**
+   * @method
+   */
+  static async create(party, name) {
+    debug("creating device ", name);
+
+    const existingDeviceList = await party
+      .find()
+      .type("device")
+      .where("name")
+      .equals(name)
+      .exec();
+
+    if (existingDeviceList &amp;&amp; existingDeviceList.length > 0) {
+      debug("found device");
+      debug(existingDeviceList[0]);
+      return existingDeviceList[0];
+    }
+
+    if (!party || !party.hasActor()) {
+      return Promise.reject(new Error('you call that a party?'))
+    }
+
+    const owner = party.actor.idObj
+
+    const [rawDevice, rawDeviceConfig] = await Promise.all([
+      party.create("device", {
+        name,
+        owner
+      }),
+      party.create("device_config", {
+        owner
+      })
+    ])
+
+    const [newDevice, newDeviceConfig] = (await Promise.all([
+      party.model.hydrate(rawDevice),
+      party.model.hydrate(rawDeviceConfig)
+    ])).map(docList => docList[0])
+
+    debug("newDeviceConfig", newDeviceConfig)
+
+    newDevice.data.config = newDeviceConfig.idObj
+
+    const deviceActor = newDevice.idObj
+
+    await Promise.all([
+      newDevice.save(),
+      newDeviceConfig.grantAccess('read', deviceActor),
+      party.create('device_status', { owner: deviceActor })
+    ])
+
+    return newDevice
+  }
+}
+
+module.exports = Device;
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.3</a> on Fri Sep 06 2019 14:07:23 GMT-0700 (PDT) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+
+
+</body>
+</html>

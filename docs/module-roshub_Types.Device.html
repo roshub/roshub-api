@@ -1,0 +1,1769 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>Device - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="CloudParty.html">CloudParty</a><ul class='methods'><li data-type='method'><a href="CloudParty.html#call">call</a></li><li data-type='method'><a href="CloudParty.html#decrypt">decrypt</a></li><li data-type='method'><a href="CloudParty.html#encrypt">encrypt</a></li><li data-type='method'><a href="CloudParty.html#hasActor">hasActor</a></li><li data-type='method'><a href="CloudParty.html#hasIdentity">hasIdentity</a></li><li data-type='method'><a href="CloudParty.html#loadActor">loadActor</a></li><li data-type='method'><a href="CloudParty.html#loadIdentity">loadIdentity</a></li><li data-type='method'><a href="CloudParty.html#socket">socket</a></li><li data-type='method'><a href="CloudParty.html#start">start</a></li></ul></li><li><a href="DataModel.html">DataModel</a><ul class='methods'><li data-type='method'><a href="DataModel.html#addFactory">addFactory</a></li><li data-type='method'><a href="DataModel.html#getDocument">getDocument</a></li><li data-type='method'><a href="DataModel.html#getFactories">getFactories</a></li><li data-type='method'><a href="DataModel.html#getFactory">getFactory</a></li><li data-type='method'><a href="DataModel.html#getTypes">getTypes</a></li><li data-type='method'><a href="DataModel.html#hydrate">hydrate</a></li><li data-type='method'><a href="DataModel.html#validate">validate</a></li></ul></li><li><a href="LocalStorageConfig.html">LocalStorageConfig</a></li><li><a href="MemoryConfig.html">MemoryConfig</a></li><li><a href="module-roshub.Api.html">Api</a><ul class='methods'><li data-type='method'><a href="module-roshub.Api.html#getLegalAgreements">getLegalAgreements</a></li></ul></li><li><a href="module-roshub.DataParty.html">DataParty</a><ul class='methods'><li data-type='method'><a href="module-roshub.DataParty.html#call">call</a></li><li data-type='method'><a href="module-roshub.DataParty.html#create">create</a></li><li data-type='method'><a href="module-roshub.DataParty.html#createDocument">createDocument</a></li><li data-type='method'><a href="module-roshub.DataParty.html#find">find</a></li><li data-type='method'><a href="module-roshub.DataParty.html#remove">remove</a></li><li data-type='method'><a href="module-roshub.DataParty.html#socket">socket</a></li><li data-type='method'><a href="module-roshub.DataParty.html#start">start</a></li><li data-type='method'><a href="module-roshub.DataParty.html#types">types</a></li><li data-type='method'><a href="module-roshub.DataParty.html#update">update</a></li></ul></li><li><a href="module-roshub.DataParty.Document.html">Document</a><ul class='methods'><li data-type='method'><a href="module-roshub.DataParty.Document.html#acl">acl</a></li><li data-type='method'><a href="module-roshub.DataParty.Document.html#getData">getData</a></li><li data-type='method'><a href="module-roshub.DataParty.Document.html#grantAccess">grantAccess</a></li><li data-type='method'><a href="module-roshub.DataParty.Document.html#mergeData">mergeData</a></li><li data-type='method'><a href="module-roshub.DataParty.Document.html#pull">pull</a></li><li data-type='method'><a href="module-roshub.DataParty.Document.html#save">save</a></li><li data-type='method'><a href="module-roshub.DataParty.Document.html#setData">setData</a></li><li data-type='method'><a href="module-roshub.DataParty.Document.html#unwatch">unwatch</a></li><li data-type='method'><a href="module-roshub.DataParty.Document.html#watch">watch</a></li><li data-type='method'><a href="module-roshub.DataParty.Document.html#watchField">watchField</a></li></ul></li><li><a href="module-roshub_Types.Acl.html">Acl</a><ul class='methods'><li data-type='method'><a href="module-roshub_Types.Acl.html#getPermissionsByField">getPermissionsByField</a></li><li data-type='method'><a href="module-roshub_Types.Acl.html#resource">resource</a></li><li data-type='method'><a href="module-roshub_Types.Acl.html#setPermissionsByField">setPermissionsByField</a></li></ul></li><li><a href="module-roshub_Types.BillingAccount.html">BillingAccount</a><ul class='methods'><li data-type='method'><a href="module-roshub_Types.BillingAccount.html#hasAgreed">hasAgreed</a></li><li data-type='method'><a href="module-roshub_Types.BillingAccount.html#hasAgreedToMarketing">hasAgreedToMarketing</a></li><li data-type='method'><a href="module-roshub_Types.BillingAccount.html#hasAgreedToPrivacy">hasAgreedToPrivacy</a></li><li data-type='method'><a href="module-roshub_Types.BillingAccount.html#hasAgreedToTos">hasAgreedToTos</a></li><li data-type='method'><a href="module-roshub_Types.BillingAccount.html#hasPlan">hasPlan</a></li></ul></li><li><a href="module-roshub_Types.Code.html">Code</a><ul class='methods'><li data-type='method'><a href="module-roshub_Types.Code.html#.create">create</a></li><li data-type='method'><a href="module-roshub_Types.Code.html#addToDevice">addToDevice</a></li></ul></li><li><a href="module-roshub_Types.CodeStatus.html">CodeStatus</a></li><li><a href="module-roshub_Types.ConsoleLog.html">ConsoleLog</a><ul class='methods'><li data-type='method'><a href="module-roshub_Types.ConsoleLog.html#.create">create</a></li></ul></li><li><a href="module-roshub_Types.Device.html">Device</a><ul class='methods'><li data-type='method'><a href="module-roshub_Types.Device.html#.create">create</a></li><li data-type='method'><a href="module-roshub_Types.Device.html#addIdentity">addIdentity</a></li><li data-type='method'><a href="module-roshub_Types.Device.html#attachBlePeer">attachBlePeer</a></li><li data-type='method'><a href="module-roshub_Types.Device.html#bleRun">bleRun</a></li><li data-type='method'><a href="module-roshub_Types.Device.html#config">config</a></li><li data-type='method'><a href="module-roshub_Types.Device.html#enroll">enroll</a></li><li data-type='method'><a href="module-roshub_Types.Device.html#getCodeDocumentList">getCodeDocumentList</a></li><li data-type='method'><a href="module-roshub_Types.Device.html#hasIdentity">hasIdentity</a></li><li data-type='method'><a href="module-roshub_Types.Device.html#identities">identities</a></li><li data-type='method'><a href="module-roshub_Types.Device.html#info">info</a></li><li data-type='method'><a href="module-roshub_Types.Device.html#removeCode">removeCode</a></li><li data-type='method'><a href="module-roshub_Types.Device.html#status">status</a></li><li data-type='method'><a href="module-roshub_Types.Device.html#topic">topic</a></li><li data-type='method'><a href="module-roshub_Types.Device.html#topics">topics</a></li><li data-type='method'><a href="module-roshub_Types.Device.html#unenroll">unenroll</a></li><li data-type='method'><a href="module-roshub_Types.Device.html#wifiConnect">wifiConnect</a></li><li data-type='method'><a href="module-roshub_Types.Device.html#wifiScan">wifiScan</a></li><li data-type='method'><a href="module-roshub_Types.Device.html#wifiState">wifiState</a></li></ul></li><li><a href="module-roshub_Types.DeviceConfig.html">DeviceConfig</a><ul class='methods'><li data-type='method'><a href="module-roshub_Types.DeviceConfig.html#addCode">addCode</a></li><li data-type='method'><a href="module-roshub_Types.DeviceConfig.html#getCodeList">getCodeList</a></li><li data-type='method'><a href="module-roshub_Types.DeviceConfig.html#module">module</a></li><li data-type='method'><a href="module-roshub_Types.DeviceConfig.html#updateModule">updateModule</a></li></ul></li><li><a href="module-roshub_Types.DeviceInfo.html">DeviceInfo</a></li><li><a href="module-roshub_Types.DeviceStatus.html">DeviceStatus</a><ul class='methods'><li data-type='method'><a href="module-roshub_Types.DeviceStatus.html#getProgress">getProgress</a></li><li data-type='method'><a href="module-roshub_Types.DeviceStatus.html#module">module</a></li></ul></li><li><a href="module-roshub_Types.Identity.html">Identity</a></li><li><a href="module-roshub_Types.Org.html">Org</a><ul class='methods'><li data-type='method'><a href="module-roshub_Types.Org.html#billing">billing</a></li><li data-type='method'><a href="module-roshub_Types.Org.html#teams">teams</a></li></ul></li><li><a href="module-roshub_Types.Topic.html">Topic</a><ul class='methods'><li data-type='method'><a href="module-roshub_Types.Topic.html#.create">create</a></li><li data-type='method'><a href="module-roshub_Types.Topic.html#instance">instance</a></li></ul></li><li><a href="module-roshub_Types.User.html">User</a><ul class='methods'><li data-type='method'><a href="module-roshub_Types.User.html#billing">billing</a></li><li data-type='method'><a href="module-roshub_Types.User.html#codes">codes</a></li><li data-type='method'><a href="module-roshub_Types.User.html#devices">devices</a></li><li data-type='method'><a href="module-roshub_Types.User.html#identities">identities</a></li><li data-type='method'><a href="module-roshub_Types.User.html#orgs">orgs</a></li><li data-type='method'><a href="module-roshub_Types.User.html#teams">teams</a></li></ul></li><li><a href="NconfConfig.html">NconfConfig</a></li></ul><h3>Modules</h3><ul><li><a href="module-roshub.html">roshub</a></li><li><a href="module-roshub_Types.html">roshub/Types</a></li></ul><h3>Events</h3><ul><li><a href="module-roshub.DataParty.Document.html#event:change">change</a></li><li><a href="module-roshub.DataParty.Document.html#event:create">create</a></li><li><a href="module-roshub.DataParty.Document.html#event:field">field</a></li><li><a href="module-roshub.DataParty.Document.html#event:value">value</a></li></ul><h3>Interfaces</h3><ul><li><a href="module-roshub.Config.html">Config</a></li></ul><h3>Global</h3><ul><li><a href="global.html#model">model</a></li></ul>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">Device</h1>
+    
+
+    
+
+
+
+
+<section>
+
+<header>
+    
+        <h2>
+            <span class="ancestors"><a href="module-roshub_Types.html">roshub/Types</a>~</span>
+        
+        Device
+        </h2>
+        
+    
+</header>
+
+<article>
+    
+        <div class="container-overview">
+        
+            
+
+    
+
+    <h4 class="name" id="Device"><span class="type-signature"></span>new Device<span class="signature">()</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="dataparty_factory_device.js.html">dataparty/factory/device.js</a>, <a href="dataparty_factory_device.js.html#line12">line 12</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="implements">Implements:</dt>
+    <dd class="implements"><ul>
+        
+            <li><a href="module-roshub.DataParty.Document.html">module:roshub.DataParty.Document</a></li>
+        
+    </ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        </div>
+    
+
+    
+
+    
+
+    
+    
+    
+
+     
+
+    
+
+    
+
+    
+        <h3 class="subsection-title">Methods</h3>
+
+        
+            
+
+    
+
+    <h4 class="name" id=".create"><span class="type-signature">(async, static) </span>create<span class="signature">()</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="dataparty_factory_device.js.html">dataparty/factory/device.js</a>, <a href="dataparty_factory_device.js.html#line282">line 282</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="addIdentity"><span class="type-signature">(async) </span>addIdentity<span class="signature">()</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="dataparty_factory_device.js.html">dataparty/factory/device.js</a>, <a href="dataparty_factory_device.js.html#line57">line 57</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="attachBlePeer"><span class="type-signature">(async) </span>attachBlePeer<span class="signature">()</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="dataparty_factory_device.js.html">dataparty/factory/device.js</a>, <a href="dataparty_factory_device.js.html#line81">line 81</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="bleRun"><span class="type-signature">(async) </span>bleRun<span class="signature">()</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="dataparty_factory_device.js.html">dataparty/factory/device.js</a>, <a href="dataparty_factory_device.js.html#line116">line 116</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="config"><span class="type-signature">(async) </span>config<span class="signature">()</span><span class="type-signature"> &rarr; {DeviceConfig}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="dataparty_factory_device.js.html">dataparty/factory/device.js</a>, <a href="dataparty_factory_device.js.html#line171">line 171</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">DeviceConfig</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="enroll"><span class="type-signature">(async) </span>enroll<span class="signature">()</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="dataparty_factory_device.js.html">dataparty/factory/device.js</a>, <a href="dataparty_factory_device.js.html#line89">line 89</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="getCodeDocumentList"><span class="type-signature">(async) </span>getCodeDocumentList<span class="signature">()</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="dataparty_factory_device.js.html">dataparty/factory/device.js</a>, <a href="dataparty_factory_device.js.html#line211">line 211</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-todo">To Do:</dt>
+    <dd class="tag-todo">
+        <ul>
+            <li>Move to {DeviceConfig}</li>
+        </ul>
+    </dd>
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="hasIdentity"><span class="type-signature">(async) </span>hasIdentity<span class="signature">()</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="dataparty_factory_device.js.html">dataparty/factory/device.js</a>, <a href="dataparty_factory_device.js.html#line37">line 37</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="identities"><span class="type-signature">(async) </span>identities<span class="signature">()</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="dataparty_factory_device.js.html">dataparty/factory/device.js</a>, <a href="dataparty_factory_device.js.html#line23">line 23</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="info"><span class="type-signature">(async) </span>info<span class="signature">()</span><span class="type-signature"> &rarr; {DeviceInfo}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="dataparty_factory_device.js.html">dataparty/factory/device.js</a>, <a href="dataparty_factory_device.js.html#line197">line 197</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">DeviceInfo</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="removeCode"><span class="type-signature">(async) </span>removeCode<span class="signature">()</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="dataparty_factory_device.js.html">dataparty/factory/device.js</a>, <a href="dataparty_factory_device.js.html#line237">line 237</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-todo">To Do:</dt>
+    <dd class="tag-todo">
+        <ul>
+            <li>Move to {DeviceConfig}</li>
+        </ul>
+    </dd>
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="status"><span class="type-signature">(async) </span>status<span class="signature">()</span><span class="type-signature"> &rarr; {DeviceStatus}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="dataparty_factory_device.js.html">dataparty/factory/device.js</a>, <a href="dataparty_factory_device.js.html#line184">line 184</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">DeviceStatus</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="topic"><span class="type-signature">(async) </span>topic<span class="signature">()</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="dataparty_factory_device.js.html">dataparty/factory/device.js</a>, <a href="dataparty_factory_device.js.html#line261">line 261</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="topics"><span class="type-signature">(async) </span>topics<span class="signature">()</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="dataparty_factory_device.js.html">dataparty/factory/device.js</a>, <a href="dataparty_factory_device.js.html#line250">line 250</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-todo">To Do:</dt>
+    <dd class="tag-todo">
+        <ul>
+            <li>implement a topic factory that create a socket connect</li>
+        </ul>
+    </dd>
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="unenroll"><span class="type-signature">(async) </span>unenroll<span class="signature">()</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="dataparty_factory_device.js.html">dataparty/factory/device.js</a>, <a href="dataparty_factory_device.js.html#line74">line 74</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="wifiConnect"><span class="type-signature">(async) </span>wifiConnect<span class="signature">()</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="dataparty_factory_device.js.html">dataparty/factory/device.js</a>, <a href="dataparty_factory_device.js.html#line131">line 131</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="wifiScan"><span class="type-signature">(async) </span>wifiScan<span class="signature">()</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="dataparty_factory_device.js.html">dataparty/factory/device.js</a>, <a href="dataparty_factory_device.js.html#line157">line 157</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="wifiState"><span class="type-signature">(async) </span>wifiState<span class="signature">()</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="dataparty_factory_device.js.html">dataparty/factory/device.js</a>, <a href="dataparty_factory_device.js.html#line150">line 150</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.3</a> on Fri Sep 06 2019 14:07:23 GMT-0700 (PDT) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+
+
+</body>
+</html>
