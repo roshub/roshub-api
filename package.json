@@ -1,7 +1,7 @@
 {
   "name": "@roshub/api",
   "private": false,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "src/node-roshub.js",
   "browser": "src/index.js",
   "files": [
@@ -34,7 +34,6 @@
     "parse-url": "^5.0.1",
     "prompt": "^1.0.0",
     "roslib": "^0.20.0",
-    "roslibjs": "github:RobotWebTools/roslibjs.git",
     "sanitize-filename": "^1.6.3",
     "store-js": "^2.0.4",
     "touch": "^3.1.0",
