@@ -1,5 +1,6 @@
 const debug = require('debug')('roshub.factory.device-status')
 const reach = require('../../reach')
+const deepSet = require('deep-set')
 const Document = require('../document')
 const Identity = require('./identity')
 
@@ -12,6 +13,14 @@ class DeviceStatus extends Document {
   constructor({ party, type, id, data }) {
     super({ party, type, id, data })
     debug('instantiated - ', this.id)
+  }
+
+  getState(){
+    return reach(this.data, 'state')
+  }
+
+  setState(val){
+    deepSet(this.data, 'state', val)
   }
 
   isEnrolled() {
